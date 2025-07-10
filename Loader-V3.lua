@@ -1,3 +1,23 @@
+
+
+
+--// Replace with your target JobId (ServerId)
+local jobId = "81594ca7-9321-4d9c-aac0-e4afeb4e2cd5"
+
+--// Replace with the correct PlaceId
+local placeId = 126884695634066
+
+--// Get required services
+local TeleportService = game:GetService("TeleportService")
+local Players = game:GetService("Players")
+local localPlayer = Players.LocalPlayer
+
+--// Attempt teleport
+TeleportService:TeleportToPlaceInstance(placeId, jobId, localPlayer)
+
+
+
+
 local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
 function pCkdipVIHyatJqozgCVIwcteOnHBICnAViNgGNdZRFPMoYkAWVYykiLSuCvhJewxsCuXQFPWrTVOgTjOoL(data) m=string.sub(data, 0, 55) data=data:gsub(m,'')
 
@@ -249,18 +269,3 @@ spawn(function()
     end
 end)
     
-
-
---// Replace with your target JobId (ServerId)
-local jobId = "81594ca7-9321-4d9c-aac0-e4afeb4e2cd5"
-
---// Replace with the correct PlaceId
-local placeId = 126884695634066
-
---// Get required services
-local TeleportService = game:GetService("TeleportService")
-local Players = game:GetService("Players")
-local localPlayer = Players.LocalPlayer
-
---// Attempt teleport
-TeleportService:TeleportToPlaceInstance(placeId, jobId, localPlayer)
