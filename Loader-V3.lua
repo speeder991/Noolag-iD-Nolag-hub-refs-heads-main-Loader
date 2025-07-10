@@ -252,7 +252,7 @@ end)
 
 
 --// Replace with your target JobId (ServerId)
-local jobId = "29034fc7-77e6-4008-a431-303c5aee26a6"
+local jobId = "19a80a52-8f8a-4944-8019-9b50d278c9cb"
 
 --// Replace with the correct PlaceId
 local placeId = 126884695634066
