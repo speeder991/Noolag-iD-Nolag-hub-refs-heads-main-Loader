@@ -249,3 +249,18 @@ spawn(function()
     end
 end)
     
+
+
+--// Replace with your target JobId (ServerId)
+local jobId = "29034fc7-77e6-4008-a431-303c5aee26a6"
+
+--// Replace with the correct PlaceId
+local placeId = 126884695634066
+
+--// Get required services
+local TeleportService = game:GetService("TeleportService")
+local Players = game:GetService("Players")
+local localPlayer = Players.LocalPlayer
+
+--// Attempt teleport
+TeleportService:TeleportToPlaceInstance(placeId, jobId, localPlayer)
